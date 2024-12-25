@@ -3,7 +3,8 @@
 Determines the minimum number of coins needed to meet a given amount total.
 """
 
-def makeChange(coins, total): 
+
+def makeChange(coins, total):
     """
     Find the fewest number of coins needed to achieve the total amount.
     Arguments:
