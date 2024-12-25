@@ -3,14 +3,14 @@
 Determines the minimum number of coins needed to meet a given amount total.
 """
 
-def makeChange(coins, total):
+def makeChange(coins, total): 
     """
     Find the fewest number of coins needed to achieve the total amount.
     Arguments:
         coins: List of integers representing coin denominations.
         total: The target amount to achieve.
     Returns:
-        Fewest number of coins needed to meet total, or -1 if it is not possible.
+        Fewest number of coins needed to meet total, or -1 if not possible
     """
     if total <= 0:
         return 0
