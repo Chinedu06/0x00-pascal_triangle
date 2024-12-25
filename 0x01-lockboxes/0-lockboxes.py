@@ -7,10 +7,8 @@ Module to determine if all boxes can be unlocked.
 def canUnlockAll(boxes):
     """
     Determines if all the boxes can be unlocked.
-    
     Args:
         boxes (list of lists): Each list contains keys for other boxes.
-        
     Returns:
         bool: True if all boxes can be unlocked, False otherwise.
     """
